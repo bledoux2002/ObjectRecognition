@@ -210,4 +210,5 @@ __marimo__/
 
 
 # yolo weights
+yolo-Weights/
 .pt
