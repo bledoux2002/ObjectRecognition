@@ -39,7 +39,7 @@ def main():
                 cv2.rectangle(img, (x1, y1), (x2, y2), (255, 0, 255), 3)
 
                 # confidence
-                confidence = math.ceil((box.conf[0]*100))/100
+                confidence = math.ceil((box.conf[0]*100))
                 print(f"Confidence: {confidence}%")
 
                 # class name
